@@ -7,6 +7,7 @@
 
 ## ** cd minisend-laravel-backend **
 ## ** php artisan serve **
+## ** freightapp.sql file is placed inside the directory as a dump database backup you can create any and change inside the .env file **
 ## ** rename .env.example file to .env **
 ## ** php artisan migrate **
 ## ** register a new user at http://127.0.0.1:8000/api/register and send body something like this 
