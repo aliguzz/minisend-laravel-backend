@@ -1,0 +1,122 @@
+{
+	"id": "4ade0aa0-e7d8-ef74-36e3-3f952601c821",
+	"name": "periperi",
+	"description": "",
+	"order": [
+		"59c5c7eb-95bd-32f5-8815-88ef418b3db6",
+		"216516d1-c6a0-6b6b-3399-70e38b45b43c",
+		"d54cef8e-90d8-d46a-307e-6745ef6e00e2"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1599055079005,
+	"owner": "5551801",
+	"public": false,
+	"requests": [
+		{
+			"id": "216516d1-c6a0-6b6b-3399-70e38b45b43c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/periperi/index.php/wp-json/v1/getorders",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4ade0aa0-e7d8-ef74-36e3-3f952601c821",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://periperi.adeodev.co.uk/wp-json/v1/getorders",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1599055123383,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "59c5c7eb-95bd-32f5-8815-88ef418b3db6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/periperi/index.php/wp-json/v1/neworders",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4ade0aa0-e7d8-ef74-36e3-3f952601c821",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://periperi.adeodev.co.uk/wp-json/v1/neworders",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1599055094996,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d54cef8e-90d8-d46a-307e-6745ef6e00e2",
+			"headers": "Authorization: Basic dG9yYWh1bHBhcmFzaGFyQGdtYWlsLmNvbTpHdUwxQGJKQG1Vbg==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic dG9yYWh1bHBhcmFzaGFyQGdtYWlsLmNvbTpHdUwxQGJKQG1Vbg==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/periperi/index.php/wp-json/v1/setorder",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4ade0aa0-e7d8-ef74-36e3-3f952601c821",
+			"data": [
+				{
+					"key": "order_id",
+					"value": "1723",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "action",
+					"value": "accept",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "resp",
+					"value": "Your order has been placed",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "order_id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"name": "http://periperi.adeodev.co.uk/wp-json/v1/setorder",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1599055141661,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
