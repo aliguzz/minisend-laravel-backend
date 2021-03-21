@@ -1,7 +1,6 @@
 
 <p align="center">
-<video controls="controls" class="video-stream" src="https://www.loom.com/share/f07ae001c5ac49d5b0390424797fc7e5"></video>
-
+<a href="#"><video controls="controls" class="video-stream" src="https://www.loom.com/share/f07ae001c5ac49d5b0390424797fc7e5"></video></a>
 </p>
 
 ## About MiniSend
